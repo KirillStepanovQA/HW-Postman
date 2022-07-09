@@ -191,5 +191,5 @@ pm.test("Check_eql", function () {
 });
 
 for (let i in jsonData.person) {
-    console.log(i);
+    console.log(i + "=" + jsonData.person[i]);
 }

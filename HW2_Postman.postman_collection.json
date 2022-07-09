@@ -379,7 +379,7 @@
 							"});\r",
 							"\r",
 							"for (let i in jsonData.person) {\r",
-							"    console.log(i);\r",
+							"    console.log(i + \"=\" + jsonData.person[i]);\r",
 							"}"
 						],
 						"type": "text/javascript"
